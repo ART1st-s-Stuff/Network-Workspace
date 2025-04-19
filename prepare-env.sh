@@ -17,5 +17,6 @@ function install_docker_k8s() {
     systemctl enable --now kubelet
 }
 
-install_kernel()
-install_docker_k8s()
+install_kernel
+
+install_docker_k8s
