@@ -18,6 +18,8 @@ function install_docker_k8s() {
     systemctl enable --now kubelet
 }
 
+apt-get install git-lfs -y
+
 install_kernel
 
 install_docker_k8s
