@@ -1,5 +1,6 @@
 function install_kernel() {
     dpkg -i kernel/*.deb
+    #tar xvf *.tar -C /
 }
 
 function install_docker_k8s() {
