@@ -23,3 +23,6 @@ apt-get install git-lfs -y
 install_kernel
 
 install_docker_k8s
+
+echo "br_netfilter" >> /etc/modules-load.d/modules.conf
+echo "net.bridge.bridge-nf-call-iptables=1" >> /etc/sysctl.conf
